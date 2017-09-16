@@ -1,0 +1,35 @@
+<?php
+	echo "
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<title>C-Star</title>
+				<link rel='stylesheet' href='style.css'>
+			</head>
+			<body>
+				<div class='main-text'>
+					<!--img src='images/logo.jpg' width='150px' height='100px'-->
+					C-Star
+					<a href='login.php' class='log_btn'>Login</a>
+				</div>
+				<div class='main-content'>
+					<span style='font-size:60px; line-height:10px;'><p>Welcome to C-Star Round-2</p></span>
+					<span style='font-size:30px; line-height:20px;'><p>Please read the following instructions carefully and proceed next</p></span>
+					
+					<ul>
+						<li>When you press the below button you will be redirected to Registration Page.</li>
+						<li>Please fill the form, then proceed next.</li>
+						<li>Once you click on submit button timer will starts. </li>
+						<li>You have to Sumbit Answers before timer stop, else your options will be finalised and evaluates the result.</li>
+					</ul>
+					<br>
+					<br>
+					<center>
+							<a href='Registration_form.php' class='reg_btn'>Next</a>
+					</center>		
+					<!--a href=\"\">print</a-->
+				</div>
+			</body>
+		</html>
+	";
+?>
